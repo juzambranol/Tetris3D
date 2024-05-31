@@ -115,6 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2949744680697467970}
   - component: {fileID: 6518730287200813875}
+  - component: {fileID: 472564203561576738}
   m_Layer: 0
   m_Name: Block-L
   m_TagString: Untagged
@@ -131,7 +132,7 @@ Transform:
   m_GameObject: {fileID: 1434379388972618848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -157,6 +158,18 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 5a449daf87723ea4e9cf6034ad781b9f, type: 3}
   _renderer: []
   _mainTexture: {fileID: 2800000, guid: 5a449daf87723ea4e9cf6034ad781b9f, type: 3}
+--- !u!114 &472564203561576738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434379388972618848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecc1c6ca24266b4298e3ec56a210666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1585729850455854348
 GameObject:
   m_ObjectHideFlags: 0

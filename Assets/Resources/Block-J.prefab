@@ -325,6 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3259766847260290523}
   - component: {fileID: 8347336526498348606}
+  - component: {fileID: 9208136124068235439}
   m_Layer: 0
   m_Name: Block-J
   m_TagString: Untagged
@@ -341,7 +342,7 @@ Transform:
   m_GameObject: {fileID: 5320787039764705432}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -367,6 +368,18 @@ MonoBehaviour:
   - {fileID: 2800000, guid: a426cfaae549bb04386d286025603800, type: 3}
   _renderer: []
   _mainTexture: {fileID: 2800000, guid: a426cfaae549bb04386d286025603800, type: 3}
+--- !u!114 &9208136124068235439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5320787039764705432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecc1c6ca24266b4298e3ec56a210666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7826812656213235424
 GameObject:
   m_ObjectHideFlags: 0
