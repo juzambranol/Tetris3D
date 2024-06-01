@@ -113,7 +113,7 @@ public class PlayerGUI : MonoBehaviour
         GUI.Label(
             new Rect(0,0
             ,Screen.width / 5.1f,Screen.height / 0.7f),
-            "Lines", _playerGUIStyle
+            "n", _playerGUIStyle
         );
 
         //Right Side
@@ -121,16 +121,6 @@ public class PlayerGUI : MonoBehaviour
             new Rect(0,0
             ,Screen.width / 0.55f,Screen.height / 4.5f),
             "Score", _playerGUIStyle
-        );
-        GUI.Label(
-            new Rect(0,0
-            ,Screen.width / 0.55f,Screen.height / 1.5f),
-            "Time", _playerGUIStyle
-        );
-        GUI.Label(
-            new Rect(0,0
-            ,Screen.width / 0.55f,Screen.height / 0.8f),
-            "Hi-Score", _playerGUIStyle
         );
         GUI.EndGroup();
     }

@@ -54,6 +54,7 @@ public class Block_Movement : MonoBehaviour
         }
         RotateBlockVertical();
         RotateBlockHorizontal();
+        RotateBlockZ();
         MoveBlockHorizontally();
         MoveBlockVertical();
         
@@ -154,9 +155,25 @@ public class Block_Movement : MonoBehaviour
             transform.Rotate(0,0,- 90,Space.Self);
         }
     }
+    public void RotateBlockZ(){
+        Debug.Log("Rotating Block Horizontal");
+        _rotateZInput=Input.GetAxis("RotateZ");
+        if(_rotateZInput>0 && _movePause==0){
+                transform.Rotate(0, 0,90, Space.Self);
+        }
+        if(_rotateZInput<0 && _movePause==0){
+            transform.Rotate(0,0,- 90,Space.Self);
+        }
+    }
     private void OnCollisionEnter(Collision collision){
 
-        
+        if(transform.position.y==10){
+            CreateBlock._createNewBlock=true;
+            _lockPosition=true;
+            _rigidbody=GetComponent<Rigidbody>();
+            _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+            GetComponent<Block_Movement>().enabled=false;
+        }
         FreezeConstraints();
     }
     public void FreezeConstraints(){
