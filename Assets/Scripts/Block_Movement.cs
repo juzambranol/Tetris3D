@@ -156,14 +156,14 @@ public class Block_Movement : MonoBehaviour
         }
     }
     public void RotateBlockZ(){
-        Debug.Log("Rotating Block Horizontal");
-        _rotateZInput=Input.GetAxis("RotateZ");
-        if(_rotateZInput>0 && _movePause==0){
-                transform.Rotate(0, 0,90, Space.Self);
-        }
-        if(_rotateZInput<0 && _movePause==0){
-            transform.Rotate(0,0,- 90,Space.Self);
-        }
+        // Debug.Log("Rotating Block Horizontal");
+        // _rotateZInput=Input.GetAxis("RotateZ");
+        // if(_rotateZInput>0 && _movePause==0){
+        //         transform.Rotate(0, 0,90, Space.Self);
+        // }
+        // if(_rotateZInput<0 && _movePause==0){
+        //     transform.Rotate(0,0,- 90,Space.Self);
+        // }
     }
     private void OnCollisionEnter(Collision collision){
 

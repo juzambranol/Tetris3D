@@ -56,6 +56,7 @@ public class CreateBlock : MonoBehaviour
         _playerTempGUI.SetNextBlockGUI();
     }
     private void spawnBlock(){
+        GameManager._score+=10;
         if(_currentBlock!=null && _currentBlock!=""){
             _block=Instantiate(Resources.Load(_currentBlock),new Vector3(0,10,0),Quaternion.identity) as GameObject;
         }

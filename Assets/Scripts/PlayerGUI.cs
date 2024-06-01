@@ -100,11 +100,7 @@ public class PlayerGUI : MonoBehaviour
         );
         }
         
-        GUI.Label(
-            new Rect(0,0
-            ,Screen.width / 5.1f,Screen.height / 1.5f),
-            "Held Block", _playerGUIStyle
-        );
+        
         GUI.Label(
             new Rect(0,0
             ,Screen.width / 5.1f,Screen.height / 0.8f),
@@ -113,7 +109,7 @@ public class PlayerGUI : MonoBehaviour
         GUI.Label(
             new Rect(0,0
             ,Screen.width / 5.1f,Screen.height / 0.7f),
-            "n", _playerGUIStyle
+            GameManager._intSpeedInput.ToString(), _playerGUIStyle
         );
 
         //Right Side
