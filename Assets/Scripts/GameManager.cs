@@ -29,4 +29,6 @@ public class GameManager : MonoBehaviour
         _screenHeightOffset=(int)(Screen.width/40);
         _playerGUIFontSize=(int)(Screen.width/40);
     }
+
+    private void Check
 }

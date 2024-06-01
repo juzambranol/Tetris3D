@@ -359,6 +359,7 @@
 "Assets/Scripts/CreateBlock.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerGUI.cs"
+"Assets/Scripts/PositionCheck.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Color.cs" />
     <Compile Include="Assets\Scripts\PlayerGUI.cs" />
+    <Compile Include="Assets\Scripts\PositionCheck.cs" />
     <Compile Include="Assets\Scripts\CreateBlock.cs" />
     <Compile Include="Assets\Scripts\BackGround.cs" />
     <Compile Include="Assets\Scripts\Block_Movement.cs" />

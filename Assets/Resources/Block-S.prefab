@@ -431,6 +431,8 @@ GameObject:
   - component: {fileID: 2152264163812377099}
   - component: {fileID: 6990364118366959880}
   - component: {fileID: -4387196353696350451}
+  - component: {fileID: 6206130147825497084}
+  - component: {fileID: -1774458344121267539}
   m_Layer: 0
   m_Name: Block-S
   m_TagString: Untagged
@@ -483,5 +485,56 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecc1c6ca24266b4298e3ec56a210666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _position: {x: 0, y: 0, z: 0}
+  _movePause: 0
+  _horizonalMoveInput: 0
+  _verticalMoveInput: 0
+  _movingHorizontally: 0
+  _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _lockPosition: 0
+  _rotateButtonPressed: 0
+  _rotateXInput: 0
+  _rotateYInput: 0
+  _rotateZInput: 0
+  _rigidbody: {fileID: 0}
+--- !u!54 &6206130147825497084
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7315859682051326583}
+  serializedVersion: 4
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-1774458344121267539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7315859682051326583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5e8122524ebe340bd595333953695e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
